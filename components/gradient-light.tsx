@@ -27,3 +27,6 @@ export default function GradientLight() {
     ></div>
   );
 }
+
+// 29, 78, 216, 0.15
+// 255, 255, 255, 0.10
