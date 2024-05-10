@@ -21,7 +21,7 @@ export default function About() {
           Like many kids, I was introduced to computers through video games. At
           that age, the colorful world of games is very captivating. Over time,
           my interest shifted from the games themselves to the machines we
-          played them on: computers. That's why I chose to study computer
+          played them on: computers. That&apos;s why I chose to study computer
           engineering at university.
         </p>
         <p className="mb-4">
@@ -30,7 +30,7 @@ export default function About() {
           the applications I create.
         </p>
         <p>
-          When I'm not at the computer, you can usually find me either
+          When I&apos;m not at the computer, you can usually find me either
           exercising, reading, spending time with family or friends.
         </p>
       </div>
