@@ -5,7 +5,7 @@ import { projects } from "@/lib/constants";
 import ProjectCard from "./project-card";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects", 0.5);
+  const { ref } = useSectionInView("Projects");
 
   return (
     <section

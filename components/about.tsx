@@ -31,7 +31,7 @@ export default function About() {
         </p>
         <p>
           When I'm not at the computer, you can usually find me either
-          exercising, spending time with family or friends, reading, or cooking.
+          exercising, reading, spending time with family or friends.
         </p>
       </div>
     </section>

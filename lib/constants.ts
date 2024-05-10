@@ -11,12 +11,20 @@ export const navLinks: TNavLinks = [
 
 export const projects = [
   {
-    link: "/",
+    link: "https://findameal.vercel.app/",
+    title: "Find A Meal",
+    description:
+      "A recipe app that you can use when you can not decide what to eat. You can choose from diet type to meal type and get different recipes from Edamam API.",
+    usedTechs: ["Next.js", "Edamam API", "Shadcn UI", "Swiper"],
+    imgUrl: "/findamealthumbnail.png",
+  },
+  {
+    link: "https://linkmylist.vercel.app/",
     title: "LinkMyList",
     description:
       "This is a to-do app where you can create a list and get a shareable link. Make a list of your shopping items or the steps to build a spacecraft, then easily share it with a friend.",
     usedTechs: ["Next.js", "Firebase"],
-    imgUrl: "/test.jpg",
+    imgUrl: "/linkmylistshowcase.png",
   },
 ];
 
