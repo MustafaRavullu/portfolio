@@ -4,11 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 export default function Typewriter() {
   const [text, count] = useTypewriter({
-    words: [
-      "Hi.👋",
-      "I build web applications.",
-      "You dream it, I make it real.",
-    ],
+    words: ["Hi.👋", "I build soluitons."],
     loop: true,
     delaySpeed: 2000,
   });

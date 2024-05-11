@@ -14,6 +14,7 @@ type TNavLinks = {
 
 type TProjectCard = {
   link: string;
+  hasDemo: boolean;
   title: string;
   description: string;
   usedTechs: string[];

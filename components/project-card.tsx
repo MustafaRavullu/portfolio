@@ -4,6 +4,7 @@ import React from "react";
 
 export default function ProjectCard({
   link,
+  hasDemo,
   title,
   description,
   usedTechs,
@@ -18,7 +19,7 @@ export default function ProjectCard({
             <Link
               href={link}
               className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-zinc-300 focus-visible:text-zinc-300  group/link text-base"
-              target="_blank"
+              target={hasDemo ? "_blank" : "_self"}
               rel="norefferer noopener"
             >
               <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>

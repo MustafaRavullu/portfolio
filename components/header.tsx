@@ -11,7 +11,7 @@ export default function Header() {
           <Link href={"/"}>Mustafa Ravullu</Link>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Software Engineer
+          Software Developer
         </h2>
         <Typewriter />
         <Navbar />
