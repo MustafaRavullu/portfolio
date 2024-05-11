@@ -30,9 +30,7 @@ export default function Header() {
         </li>
         <li className="mr-5 text-xs shrink-0">
           <Link
-            href={
-              "https://www.linkedin.com/in/muhammed-mustafa-ravullu-810852200/"
-            }
+            href={"https://www.linkedin.com/in/mustafa-ravullu/"}
             target="_blank"
             rel="norefferer noopener"
             title="Linkedin"
