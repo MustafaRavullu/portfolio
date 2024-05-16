@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import Certificates from "@/components/certificates";
 import Experience from "@/components/experience";
 import Header from "@/components/header";
 import Projects from "@/components/projects";
@@ -13,6 +14,7 @@ export default function Home() {
           <About />
           {/* <Experience /> */}
           <Projects />
+          <Certificates />
         </main>
       </ActiveSectionContextProvider>
     </div>

@@ -1,4 +1,4 @@
-type TSectionName = "About" | "Experience" | "Projects";
+type TSectionName = "About" | "Experience" | "Projects" | "Certificates";
 
 type TActiveSectionContext = {
   active: TSectionName;

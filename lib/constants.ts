@@ -7,6 +7,10 @@ export const navLinks: TNavLinks = [
     name: "Projects",
     link: "#projects",
   },
+  {
+    name: "Certificates",
+    link: "#certificates",
+  },
 ];
 
 export const projects = [
@@ -47,5 +51,17 @@ export const experiences = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque error natus repellat dolorem optio ipsum velit. Obcaecati est dolores veniam labore deleniti aliquam modi enim id omnis, laborum cum quis expedita quasi fugit sequi delectus facilis natus non nemo dicta. Dolore rerum aliquid aperiam laborum debitis voluptates odio, ipsa quis.",
     usedTechs: ["Javascript"],
+  },
+];
+
+export const certificates = [
+  {
+    link: "https://www.freecodecamp.org/certification/mravullu/foundational-c-sharp-with-microsoft",
+    hasDemo: true,
+    title: "Foundational C# with Microsoft",
+    description:
+      "I have earned the foundational C# with Microsoft certification prepared in collaboration with freeCodeCamp and Microsoft.",
+    usedTechs: [],
+    imgUrl: "/c-sharp-cert.png",
   },
 ];
